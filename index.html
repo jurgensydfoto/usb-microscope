@@ -47,7 +47,7 @@
             border-radius: 4px;
             padding: 30px 20px;
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             background-color: #0A0A0A;
         }
 
@@ -82,14 +82,14 @@
 
         .crypto-address {
             background-color: #111111;
-            color: #FFFF00; /* Акцентный 100% Yellow */
+            color: #FFFF00;
             font-family: monospace;
             padding: 12px;
             border-radius: 4px;
             word-break: break-all;
             font-size: 0.95rem;
             margin: 0;
-            user-select: all; /* Выделение адреса одним кликом */
+            user-select: all;
         }
 
         .network-tag {
@@ -97,6 +97,25 @@
             color: #888888;
             margin-top: 10px;
             display: block;
+        }
+
+        /* Блок контактов */
+        .contact-block {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 0.9rem;
+            color: #888888;
+        }
+
+        .contact-block a {
+            color: #FFFF00;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .contact-block a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
         }
 
         /* Кнопка скачивания */
@@ -139,6 +158,10 @@
 
             <div class="crypto-address">0xff183e489c0f161f82b79b7ad2fdda09017ff9fd</div>
             <span class="network-tag">Network: Base Mainnet (ETH / USDC)</span>
+        </div>
+
+        <div class="contact-block">
+            Contact: <a href="mailto:ys.foto@gmail.com">ys.foto@gmail.com</a>
         </div>
 
         <a href="#" class="btn-download">Download USB_Microscope.exe</a>
