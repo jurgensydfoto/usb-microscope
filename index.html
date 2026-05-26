@@ -33,7 +33,7 @@
             margin-bottom: 24px;
             line-height: 1.2;
             letter-spacing: -0.5px;
-            text-align: center; /* Выравнивание заголовка по центру */
+            text-align: center;
         }
 
         .philosophy {
@@ -77,7 +77,7 @@
         .qr-image {
             width: 150px;
             height: 150px;
-            display: none; /* Замени display: none на block, когда добавишь qr.png */
+            display: none;
             margin: 0 auto 20px auto;
         }
 
@@ -139,6 +139,15 @@
         .btn-download:hover {
             opacity: 0.8;
         }
+        
+        /* Блок предупреждения */
+        .warning-text {
+            font-size: 0.8rem;
+            color: #666666;
+            margin-top: 16px;
+            text-align: center;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
@@ -165,11 +174,12 @@
             Contact: <a href="mailto:ys.foto@gmail.com">ys.foto@gmail.com</a>
         </div>
 
-        <a href="https://github.com/jurgensydfoto/usb-microscope/releases/download/Beta0.5/USB_Microscope.exe" class="btn-download">Download USB_Microscope.exe</a>
-    
-    <div style="font-size: 0.8rem; color: #666; margin-top: 10px; text-align: center;">
-    Note: As an unsigned indie tool, Windows SmartScreen may flag the file. Click "More info" &rarr; "Run anyway".
-</div>
+        <a href="https://github.com/jurgensydfoto/usb-microscope/releases/download/Beta0.5/USB_Microscope.7z" class="btn-download">Download USB_Microscope.7z</a>
+        
+        <div class="warning-text">
+            Note: As an unsigned indie tool, Windows SmartScreen may flag this file.<br>
+            To launch, click <strong>"More info"</strong> &rarr; <strong>"Run anyway"</strong>.
+        </div>
     </main>
 
 </body>
