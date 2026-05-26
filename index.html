@@ -61,23 +61,10 @@
             display: block;
         }
 
-        .qr-placeholder {
-            width: 150px;
-            height: 150px;
-            margin: 0 auto 20px auto;
-            background-color: #1A1A1A;
-            border: 1px dashed #333333;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #666666;
-            font-size: 0.8rem;
-        }
-
         .qr-image {
             width: 150px;
             height: 150px;
-            display: none;
+            display: block; /* Картинка теперь видима */
             margin: 0 auto 20px auto;
         }
 
@@ -162,9 +149,7 @@
         <div class="support-box">
             <span class="support-title">Support via Base (EVM)</span>
             
-            <div class="qr-placeholder">
-                [ QR CODE ]
-            </div>
+            <img src="qr.png" alt="Base Address QR Code" class="qr-image">
 
             <div class="crypto-address">0xff183e489c0f161f82b79b7ad2fdda09017ff9fd</div>
             <span class="network-tag">Network: Base Mainnet (ETH / USDC)</span>
