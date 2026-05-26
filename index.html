@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB Microscope Live Capture Suite</title>
+    <style>
+        /* Базовый сброс и настройка шрифтов */
+        body {
+            background-color: #050505;
+            color: #FFFFFF;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Главный контейнер */
+        main {
+            max-width: 500px;
+            padding: 40px 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            margin-bottom: 24px;
+            line-height: 1.2;
+            letter-spacing: -0.5px;
+        }
+
+        .philosophy {
+            font-size: 1.1rem;
+            color: #CCCCCC;
+            margin-bottom: 40px;
+        }
+
+        /* Блок поддержки */
+        .support-box {
+            border: 1px solid #333333;
+            border-radius: 4px;
+            padding: 30px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            background-color: #0A0A0A;
+        }
+
+        .support-title {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888888;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .qr-placeholder {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px auto;
+            background-color: #1A1A1A;
+            border: 1px dashed #333333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666666;
+            font-size: 0.8rem;
+        }
+
+        .qr-image {
+            width: 150px;
+            height: 150px;
+            display: none; /* Замени display: none на block, когда добавишь qr.png */
+            margin: 0 auto 20px auto;
+        }
+
+        .crypto-address {
+            background-color: #111111;
+            color: #FFFF00; /* Акцентный 100% Yellow */
+            font-family: monospace;
+            padding: 12px;
+            border-radius: 4px;
+            word-break: break-all;
+            font-size: 0.95rem;
+            margin: 0;
+            user-select: all; /* Выделение адреса одним кликом */
+        }
+
+        .network-tag {
+            font-size: 0.8rem;
+            color: #888888;
+            margin-top: 10px;
+            display: block;
+        }
+
+        /* Кнопка скачивания */
+        .btn-download {
+            display: block;
+            width: 100%;
+            background-color: #FFFF00;
+            color: #050505;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            transition: opacity 0.2s;
+            box-sizing: border-box;
+        }
+
+        .btn-download:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>USB MICROSCOPE<br>LIVE CAPTURE SUITE</h1>
+        
+        <div class="philosophy">
+            No overengineering, just functionality that works. I build tools for those who value speed, clarity, and visual precision. If this approach resonates with you and the software helps your workflow, support the project. All support fuels further development.
+        </div>
+
+        <div class="support-box">
+            <span class="support-title">Support via Base (EVM)</span>
+            
+            <div class="qr-placeholder">
+                [ QR CODE ]
+            </div>
+
+            <div class="crypto-address">0xff183e489c0f161f82b79b7ad2fdda09017ff9fd</div>
+            <span class="network-tag">Network: Base Mainnet (ETH / USDC)</span>
+        </div>
+
+        <a href="#" class="btn-download">Download USB_Microscope.exe</a>
+    </main>
+
+</body>
+</html>
